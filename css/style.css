@@ -397,7 +397,8 @@ section.blog .card-wrapper .card .card-content a.read-more{
 }
 
 section.contact .card-wrapper{
-    display:grid;
+    /* display:grid; */
+    text-align: center;
     grid-template-columns: repeat(3,1fr);
     grid-gap:3rem;
 }
