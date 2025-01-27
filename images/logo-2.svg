@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="80" viewBox="0 0 300 80">
+  <!-- Background Circle -->
+  <circle cx="40" cy="40" r="40" fill="#0073e6" />
+  
+  <!-- Initials -->
+  <text x="40" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#fff" text-anchor="middle">
+    SB
+  </text>
+  
+  <!-- Full Name -->
+  <text x="100" y="50" font-family="Poppins, sans-serif" font-size="24" font-weight="bold" fill="url(#gradient)">
+    Sarthak Badgujar
+  </text>
+  
+  <!-- Decorative Line -->
+  <line x1="100" y1="60" x2="280" y2="60" stroke="#ffcc00" stroke-width="3" />
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color: #ff6f61; stop-opacity: 1;" />
+      <stop offset="100%" style="stop-color: #ffcc00; stop-opacity: 1;" />
+    </linearGradient>
+  </defs>
+</svg>
