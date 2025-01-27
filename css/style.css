@@ -633,3 +633,19 @@ footer .copyright {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+.about-me-img.circle {
+  width: 400px; /* Adjust size as needed */
+  height: 400px; /* Keep width and height equal to maintain the circle */
+  border-radius: 50%; /* 50% for a perfect circle */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+  display: block; /* Remove extra space under the image */
+}
+
+.about-me-img.rectangle {
+    width: 400px; /* Adjust size as needed */
+    height: 600px; /* Keep width and height equal to maintain the circle */
+    border-radius: 0%; /* 50% for a perfect circle */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+    display: block; /* Remove extra space under the image */
+  }
