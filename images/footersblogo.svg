@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="80" viewBox="0 0 300 80">
+  <!-- Background Circle -->
+  <circle cx="40" cy="40" r="40" fill="#0073e6" />
+  
+  <!-- Initials inside the circle -->
+  <text x="40" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#fff" text-anchor="middle">
+    SB
+  </text>
+</svg>
